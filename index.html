@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home-section  -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sanskar Dubey</h1>
+            <h3>And I'm a <span class="span1" id="multiple-text"></span></h3>
+            <p>I am a full stack developer with expertise in building robust web applications, focusing on the MERN
+                stack and scalable solutions.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/sanskar_real?igsh=MWI1NWptbzduMG5mOQ=="><i
+                        class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/sanskar-dubey-355928289"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="./images/Profile (1).pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./images/imgg.png" class="profile-photo" alt="">
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/imgg.png" alt="Profile">
+        </div>
+
+        <div class="about-container">
+            <h2 class="heading">About <span class="span1">Me</span></h2>
+            <h3>Full Stack Developer!</h3>
+            <p>Hi, I'm Sanskar Dubey, a passionate and curious second-year college student currently diving into the
+                exciting world of full-stack development with the MERN stack. As a beginner developer, I'm committed to
+                continuously expanding my skill set and staying at the forefront of technology. My enthusiasm for
+                learning drives me to explore new tech skills, allowing me to innovate and build impactful
+                solutions.<span id="dots0">...</span><span id="more0"> I'm eager to apply my knowledge and grow in this
+                    dynamic field, with a focus on becoming a proficient software engineer.In addition to full-stack
+                    development, I am also diving into Data Structures and Algorithms (DSA) to sharpen my
+                    problem-solving abilities. I believe that a deep understanding of DSA is crucial for writing
+                    efficient code and tackling real-world challenges. My love for coding drives me to continuously
+                    learn, innovate, and apply my knowledge to create impactful solutions.
+                    I am eager to contribute to meaningful projects and collaborate with others who share my enthusiasm
+                    for technology. My goal is to grow into a proficient software engineer, capable of making
+                    significant contributions to the tech industry. </span></p>
+            <button onclick="myFunction('dots0', 'more0' , 'btn0')" id="btn0" class="btn">Read more</button>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION  -->
+
+    <section class="services" id="services">
+        <h2 class="heading" id="heading1">Our <span class="span1">Servics</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development has become a central focus of my learning journey, allowing me to bring ideas to life
+                    through code. I am currently honing my skills in full-stack development using the MERN stack
+                    (MongoDB, Express.js, React, and Node.js).<span id="dots1">...</span><span id="more1">This powerful
+                        combination of technologies enables me to build dynamic, responsive, and scalable web
+                        applications.On the front-end, I focus on building clean, user-friendly interfaces with React,
+                        ensuring that every application I develop is both visually appealing and easy to
+                        navigate.</span></p>
+                <button onclick="myFunction('dots1', 'more1', 'btn1')" id="btn1" class="btn">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphics Design</h3>
+                <p>Graphic design is where creativity meets functionality, and I find immense satisfaction in bringing
+                    ideas to life through visual storytelling. As a graphic designer, I focus on crafting designs that
+                    are not only visually appealing but also meaningful.<span id="dots2">...</span><span id="more2"> My
+                        approach to design is rooted in understanding the goals of each project and the needs of the
+                        audience. I work with various tools and software, such as Adobe Photoshop, Illustrator, and
+                        Canva, to create designs that range from sleek and modern to bold and impactful.</span></p>
+                <button onclick="myFunction('dots2', 'more2', 'btn2')" id="btn2" class="btn">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-trip-advisor'></i>
+                <h3>Career Advice</h3>
+                <p>Navigating the dynamic and ever-evolving world of technology can be challenging, but with the right
+                    guidance and mindset, it can also be incredibly rewarding. As someone passionate about the tech
+                    industry and continuous learning<span id="dots3">...</span><span id="more3"> I offer career advice
+                        to
+                        help others on their journey toward success.My approach to career advice is rooted in
+                        understanding individual goals, strengths, and aspirations. Whether you are just starting out in
+                        tech or looking to pivot your career, I provide tailored advice that aligns with your unique
+                        path.</span></p>
+                <button onclick="myFunction('dots3', 'more3', 'btn3')" id="btn3" class="btn">Read more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span class="span1">Projects</span></h2>
+
+        <div class="portfolio-contanier">
+            <div class="portfolio-box">
+                <img src="/images/p1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Full-Stack Web Application</h4>
+                    <p>Built a dynamic web app using the MERN stack with features like user authentication, CRUD
+                        operations, and responsive design</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/p2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Real-Time Chat Application</h4>
+                    <p>Developed a chat app with real-time messaging, user presence indicators, and message
+                        notifications using WebSockets for instant communication</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/p3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Created a personal portfolio to showcase projects, skills, and experience with interactive UI,blog, and contact form for professional branding</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/p4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>API Development</h4>
+                    <p>Created a RESTful API with CRUD operations and authentication, serving data to front-end
+                        applications and ensuring scalability and security</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/p5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Platform</h4>
+                    <p>Designed and implemented an online store with product listings, shopping cart, and secure payment
+                        integration, focusing on user experience and functionality.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+
+                <img class="img6" src="/images/p61.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Machine Learning Model</h4>
+                    <p>Developed a machine learning model for image classification, including data preprocessing, model
+                        training, and performance evaluation.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="span1">Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" id="contact-button">
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Sanskar | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- types js  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
