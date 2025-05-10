@@ -1,2 +1,1 @@
-# Portfolio
-My Portfolio
+This is a personal portfolio website built with HTML, CSS, and JavaScript to showcase my skills, projects, and services. It includes a modern, responsive design with interactive features such as a navigation bar, dynamic "Read more" functionality, and smooth scroll effects.
